@@ -14,24 +14,24 @@
 </head>
 <body>
     <!--navbar-->
-    <nav class="bg-white pt-4 " id="navbar">
+    <nav class="bg-white pt-4 w-full relative" >
         <div class="flex justify-between">
         <div>
             <img src="./assests/Askmeidentity 2 (1).png" alt="logo" width="120px" height="100px">
         </div>
         <div>
-        <ul class="space-x-8 text-center" id="navli">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Contact</a></li>
+        <ul class="space-x-8 text-center bg-white " >
+            <li class="inline-block pl-20px" ><a href="#">Home</a></li>
+            <li class="inline-block pl-20px"><a href="#">About</a></li>
+            <li class="inline-block pl-20px"><a href="#">Courses</a></li>
+            <li class="inline-block pl-20px"><a href="#">Contact</a></li>
         </ul>
         </div>
-        <div class="flex space-x-20 pl-0 text-center">
-        <div class="navicons">
-            <a href="#"><img class="navicon1" src="./assests/navicon1.png" alt="cart"></a>
-            <a href="#"> <img class="navicon1"  src="./assests/navsearchicon.png" alt="contact"></a>
-                <a href="#"> <img class="navicon1"  src="./assests/navicon3.png" alt="icon"></a>
+        <div class="flex space-x-20 pl-0 ">
+        <div class="flex space-x-4  flex justify-between mr-300px">
+            <a class="pt-2px flex justify-between mr-300px text-xs"   href="#"><img class="size-9" src="./assests/navicon1.png" alt="cart"></a>
+            <a class="pt-2px flex justify-between mr-300px text-xs" href="#"> <img class="size-9"  src="./assests/navsearchicon.png" alt="contact"></a>
+            <a class="pt-2px  flex justify-between mr-300px text-xs" href="#"> <img class="size-9 "  src="./assests/navicon3.png" alt="icon"></a>
                   
         </div>
         <div class="space-x-4">
@@ -40,40 +40,34 @@
         </div>
     </div>
 </div>
-<img class="navcartimg" src="./assests/cartzero.png" alt="cart">
+<img class="w-[15px] h-[15px] absolute top-[12px] right-[331px]" src="./assests/cartzero.png" alt="cart" width="15px" height="15px">
     </nav>
 
 <!--hero section-->
-    <header class="hero" >
+    <header class="pl-0 bg-[linear-gradient(90deg,_rgba(4,1,108,1)_0%,_rgba(74,22,189,1)_2%,_rgba(27,8,134,1)_33%,_rgba(31,9,138,1)_38%,_rgba(21,6,127,1)_92%)] w-[1900px] h-[859px] relative"  >
 
         
             
             <div class="width=50% text-center pl-10 pt-0">
 
-                <p class="heropara">Successful coaches are visionaries</p>
-                <div class="herotext">
-                <h1 >Good <span>coaching</span>  is 
-                <h1>good teaching &</h1> 
-                <h1> nothing else.</h1></h1>
+                <p class="m-0 pt-2.5 pl-10 text-white font-righteous absolute left-[100px] top-[95px] text-[25px] text-left   ">Successful coaches are visionaries</p>
+                <div class="pl-7 absolute left-[70px] top-[150px]   ">
+                <h1 class="text-white font-righteous text-[55px] flex justify-star ">Good <span class="text-[rgba(14,56,205,1)] font-righteous text-[65px] " >coaching</span>  is 
+                <h1 class="text-white font-bold text-6xl ">good teaching &</h1> 
+                <h1 class="text-white font-bold text-6xl "> nothing else.</h1></h1>
             </div>
 
-                <div class="flex space-x-8">
+                <div class="pl-24 absolute left-[100px] top-[430px]">
                     <button class="border 1px solid white text-white px-4 py-2 rounded hover:bg-blue-600 transition transform hover:scale-110">View Course</button>
-                    <a class="anger" href="#">Get Free Consultation</a>
+                    <a  class="text-white " href="#">Get Free Consultation</a>
                 </div>
-                
-                
-            
-                
-                     
-                
 
             <div>
                 <div>
-                    <img  class="threeimg1" class="absolute bottom-0" src="./assests/big.png" alt="big">
-                    <img  class="threeimg2" src="./assests/center.png" alt="center">
-                    <img  class="threeimg3" src="./assests/little.png" alt="little">
-                    <img  class="threeimg4" src="./assests/woman.png" alt="" height="1300px" >
+                    <img   class="absolute bottom-0 left-180" src="./assests/big.png" alt="big">
+                    <img  class="absolute bottom-0 left-185"src="./assests/center.png" alt="center">
+                    <img  class="absolute bottom-0 left-190"src="./assests/little.png" alt="little">
+                    <img class="bg-[radial-gradient(circle,_rgba(255,255,255,1)_2%,_rgba(27,8,134,1)_68%,_rgba(21,6,127,1)_92%,_rgba(31,9,138,1)_96%)] w-[700px] h-[800px] bg-cover absolute right-[95px] bottom-0 rounded-[94px] " src="./assests/woman.png" alt="woman"  width="300px;" height="100px" >
                     
 
                 </div>
@@ -83,31 +77,31 @@
 
         </div>
 
-        <div class="searchyourcource">
+        <div class="flex w-[630px] absolute top-[500px] left-[50px]"  >
             <div>
             <form>
-                <input type="email" placeholder="what you want to learn today?">
+                <input class="ml-5 w-[600px] h-[80px] bg-[#fefefe] rounded-[14px] pl-7" type="email" placeholder="what you want to learn today?">
             </div>
-                <div class="searchyourcourcebtn">
-                    <div>
-                        <img src="./assests/search icon.png" alt="search">
+                <div class=" flex">
+                    <div class="absolute top-7 left-100  ">
+                        <img class="mt-1 " src="./assests/search icon.png" alt="search">
                     </div>
                     
-                <div>
-                    <button type="button">Subscribe</button>
+                <div class="pl-5 pt-0.5 ml-[-250px] mt-4 flex gap-2.5 w-[200px] h-[50px] rounded-[14px] shadow-[14px] bg-[linear-gradient(#3023B2,_#7F56D9)]">
+                    <button class="pl-10 pt-3px pr-10px ml--10 bg-gradient-to-b from-[#3023B2] to-[#7F56D9] text-center text-[20px] text-white font-righteous  text-white" type="button">Subscribe</button>
                 </div>
             </div>
             </form>
         </div>
-        <div class="lineshyam">
-            <div class="line1">
+        <div class="flex absolute top-70 left-230 gap-8">
+            <div>
                 <img src="./assests/line.png" alt="line">
             </div>
-            <div class="line2">
-                <h3>Shyam</h3>
+            <div>
+                <h3 class="text-white text-lg ">Shyam</h3>
                 <p>In a coaching role, you ask the<br> questions and rely more on your <br>
                     staff, who become the experts, to<br> provide the information.</p>
-                    <h6>4.9</h6>
+                    <h6 class="text-blue-600">4.9</h6>
             </div>
         </div>
     </header>
@@ -115,8 +109,8 @@
 
     <!--channel section-->
 
-    <section class="channel">
-        <div class="flex justify-around space-x-9 pt-5 pb-5">
+    <section class="relative -top-3 bg-gradient-to-b from-[#2E08C7] via-[#7E08C7] to-blue-500">
+        <div class="flex justify-around space-x-9 pt-5 pb-5 ">
             <img src="./assests/spotify.png" alt="spotify">
             <img src="./assests/amazon.png" alt="amazon">
             <img src="./assests/spotify.png" alt="spotify">
@@ -127,154 +121,155 @@
         <div class="channeldiv"></div>
     </section>
     <!--featured section-->
-    <section class="featured">
+    <section class="relative bg-gradient-to-b from-slate-50 to-gray-200">
         <div class="section">
         
         <div class=" mt-18">
-            <h1 class="text-center  font-bold text-black pt-5">Featured <span class="textdesign">Courses</span> </h1>
-            <p class= "text-center">The feature courses are we invented our teaching part</p> </div>
-            <div class="circleimage"><img src="./assests/double round.png" alt="round"></div>
+            <h1 class="text-center  font-bold text-black pt-5 text-black font-rowdies text-[30px] ">Featured <span class="text-[rgba(14,56,205,1)] font-rowdies text-[30px] textdesign">Courses</span> </h1>
+            <p class= "text-[rgb(32,29,29)] font-righteous font-semibold text-[30px]  pb-[100px] ">The feature courses are we invented our teaching part</p> </div>
+            <div class="absolute left-25 top-10 "><img src="./assests/double round.png" alt="round"></div>
             
        
     </div>
 
-        <div class="siximages">
-            <div class="separate">
-            <div class=sixmg>
+        <div class=" siximages">
+            <div class="pl-[10%] w-[1600px] h-[900px] grid grid-cols-3 grid-rows-2 gap-[1px] justify-center">
+            <div class="w-[400px] h-[400px] bg-[#fafafa] shadow-[19px] rounded-[14px] ">
                 <img src="./assests/featured1.png" alt="book">
                 <div class="flex justify-between">
-                    <span class="secondclass">1,957 Students</span>
-                    <span class="secondclass">01h 59m</span>
+                    <span class="p-[13px] font-[saira] text-[#4E596B]">1,957 Students</span>
+                    <!--just i paused here------------------------------------------------------------------>
+                    <span class="p-[13px] font-[saira] text-[#4E596B] secondclass">01h 59m</span>
                 </div>
-                <h3 class="fontdesign">Motion Graphics: Create a Nice<br>
+                <h3 class=" p-[13px] text-[#324361] font-extrabold font-[saira]">Motion Graphics: Create a Nice<br>
                     Typography Animation</h3>
                     <div class="flex justify-between">
-                        <span class="secondclass one">Rs.499</span>
+                        <span class="p-[6px] font-[saira] text-[#4E596B]">Rs.499</span>
                         <span><img src="./assests/boxcart.png" alt="cart"></span>
                     </div>
             </div>
 
 
            
-            <div class=sixmg>
+            <div class="w-[400px] h-[400px] bg-[#fafafa] shadow-[19px] rounded-[14px]">
                 <img src="./assests/featured2.png" alt="book">
                 <div class="flex justify-between">
-                    <span class="secondclass">9,575 Students</span>
-                    <span class="secondclass">01h 59m</span>
+                    <span class="p-[13px] font-[saira] text-[#4E596B] ">9,575 Students</span>
+                    <span class="p-[13px] font-[saira] text-[#4E596B] ">01h 59m</span>
                 </div>
-                <h3 class="fontdesign">Advance PHP knowledge with JS to<br>make smart web</h3>
+                <h3 class="p-[13px] text-[#324361] font-extrabold font-[saira] ">Advance PHP knowledge with JS to<br>make smart web</h3>
                     <div class="flex justify-between">
-                        <span class="secondclass  one">Rs.499</span>
+                        <span class="p-[6px] font-[saira] text-[#4E596B] ">Rs.499</span>
                         <span><img src="./assests/boxcart.png" alt="cart"></span>
                     </div>
             </div>
 
-            <div class=sixmg>
+            <div class="w-[400px] h-[400px] bg-[#fafafa] shadow-[19px] rounded-[14px] ">
                 <img src="./assests/featured3.png" alt="book">
                 <div class="flex justify-between">
-                    <span class="secondclass">2957 Students</span>
-                    <span class="secondclass">01h 59m</span>
+                    <span class="p-[13px] font-[saira] text-[#4E596B]  ">2957 Students</span>
+                    <span class="p-[13px] font-[saira] text-[#4E596B] ">01h 59m</span>
                 </div>
-                <h3 class="fontdesign">Education Software and PHP and JS<br>System Script</h3>
+                <h3 class="p-[13px] text-[#324361] font-extrabold font-[saira] ">Education Software and PHP and JS<br>System Script</h3>
                     <div class="flex justify-between">
-                        <span class="secondclass  one">Rs.499</span>
+                        <span class="p-[6px] font-[saira] text-[#4E596B] ">Rs.499</span>
                         <span><img src="./assests/boxcart.png" alt="cart"></span>
                     </div>
             </div>
-            <div class=sixmg>
+            <div class="w-[400px] h-[400px] bg-[#fafafa] shadow-[19px] rounded-[14px] ">
                 <img src="./assests/feartured4.png" alt="book">
                 <div class="flex justify-between">
-                    <span>5,457 Students</span>
-                    <span>01h 59m</span>
+                    <span class="p-[13px] font-[saira] text-[#4E596B] ">5,457 Students</span>
+                    <span  class="p-[13px] font-[saira] text-[#4E596B] ">01h 59m</span>
                 </div>
-                <h3 class="fontdesign">The Complete Financial Analyst <br>Training & Investing</h3>
+                <h3 class="p-[13px] text-[#324361] font-extrabold font-[saira] ">The Complete Financial Analyst <br>Training & Investing</h3>
                     <div class="flex justify-between">
-                        <span class="secondclass  one">Rs.499</span>
+                        <span class="p-[6px] font-[saira] text-[#4E596B] ">Rs.499</span>
                         <span><img src="./assests/boxcart.png" alt="cart"></span>
                     </div>
             </div>
 
-            <div class=sixmg>
+            <div class="w-[400px] h-[400px] bg-[#fafafa] shadow-[19px] rounded-[14px] ">
                 <img src="./assests/featured5.png" alt="book">
                 <div class="flex justify-between">
-                    <span class="secondclass">595 Students</span>
-                    <span class="secondclass">01h 49m</span>
+                    <span class="p-[13px] font-[saira] text-[#4E596B] ">595 Students</span>
+                    <span class="p-[13px] font-[saira] text-[#4E596B] ">01h 49m</span>
                 </div>
-                <h3 class="fontdesign">Marketing 2023: Complete Guide To<br>Instagram Growth</h3>
+                <h3 class="p-[13px] text-[#324361] font-extrabold font-[saira] ">Marketing 2023: Complete Guide To<br>Instagram Growth</h3>
                     <div class="flex justify-between">
-                        <span class="secondclass  one">Rs.499</span>
+                        <span class="p-[6px] font-[saira] text-[#4E596B] ">Rs.499</span>
                         <span><img src="./assests/boxcart.png" alt="cart"></span>
                     </div>
             </div>
 
-            <div class=sixmg>
+            <div class="w-[400px] h-[400px] bg-[#fafafa] shadow-[19px] rounded-[14px] ">
                 <img src="./assests/featured6.png" alt="book">
                 <div class="flex justify-between">
-                    <span class="secondclass">458 Students</span>
-                    <span class="secondclass">03h 00m</span>
+                    <span class="p-[13px] font-[saira] text-[#4E596B] ">458 Students</span>
+                    <span class="p-[13px] font-[saira] text-[#4E596B] ">03h 00m</span>
                 </div>
-                <h3 class="fontdesign">Learn 3D Modelling and Design <br>for Beginners</h3>
+                <h3 class="p-[13px] text-[#324361] font-extrabold font-[saira] ">Learn 3D Modelling and Design <br>for Beginners</h3>
                     <div class="flex justify-between">
-                        <span class="secondclass  one">Rs.499</span>
+                        <span class="p-[6px] font-[saira] text-[#4E596B] ">Rs.499</span>
                         <span><img src="./assests/boxcart.png" alt="cart"></span>
                     </div>
             </div>
         </div>
 
        
-   <div class="explore">
-    <button>Explore courses</button>
+   <div class="text-center pb-10">
+    <button class="w-[200px] h-[50px] font-[righteous] bg-gradient-to-r from-indigo-700 to-violet-700 rounded-[15px] text-white" >Explore courses</button>
    </div>
 </div>
     </section>
 
 
     <!--our courses-->
-    <section   class="ourcourses">
-        <div class="ourcoursesthreeimg">
-            <img  class="threeimg11" class="absolute bottom-0" src="./assests/big.png" alt="big">
-            <img  class="threeimg22" src="./assests/center.png" alt="center">
-            <img  class="threeimg33" src="./assests/little.png" alt="little">
+    <section   class=" relative bg-gradient-to-br from-indigo-500 to-violet-900 w-full h-[800px] ">
+        <div class="">
+            <img  class="absolute left-[-80px] top-[100px] rotate-90 " class="absolute bottom-0" src="./assests/big.png" alt="big">
+            <img  class="absolute left-[-80px] top-[110px] rotate-90 " src="./assests/center.png" alt="center">
+            <img  class="absolute left-[-80px] top-[120px] rotate-90 " src="./assests/little.png" alt="little">
            
         </div>
 
         <div>
 
         </div>
-        <div class="ourcoursessec">
+        <div class="text-center pt-[100px] gap-[10px] flex flex-col ">
            
-                <h1 class="font-bold text-white text-4xl " >Why <span>learn</span>  with our courses?</h1>
-                <p>We are providing the best courses and top classes.And<br> extradinery placement training.....</p>
+                <h1 class="font-bold text-white text-4xl font-[righteous] text-white pb-[20px] " >Why <span class="text-[#0a0aec]">learn</span>  with our courses?</h1>
+                <p class="text-white font-[saira]">We are providing the best courses and top classes.And<br> extradinery placement training.....</p>
         </div>
 
 
-        <div class="overall">
-            <div class="overinside">
+        <div class="flex mt-[100px] ml-[350px] w-[1200px] h-[400px] ">
+            <div class="w-[400px] h-[390px] border-r border-dashed border-[rgb(249,250,252)] box-border ">
                 
-                <img src="./assests/course1.png" alt="learn">
-                    <p>01. Learn</p>
-                    <p>Learn continually. There is always<br>
+                <img class="pt-[50px] pl-[150px] pb-[10px]" src="./assests/course1.png" alt="learn">
+                    <p class="pt-[10px] text-center text-white">01. Learn</p>
+                    <p  class="pt-[10px] text-center text-white">Learn continually. There is always<br>
                         “one more thing”to learn.</p>
                 </div>
                 
                  
             
 
-            <div class="overinside">
-                <div class="overinsideleft">
-                    <img src="./assests/course2.png" alt="">
-                    <p>02. Graduate</p>
-                    <p>Be bold,be courageous,<br>
+            <div class="w-[400px] h-[390px] border-r border-dashed border-[rgb(249,250,252)] box-border">
+                <div>
+                    <img class="pt-[50px] pl-[150px] pb-[10px]" src="./assests/course2.png" alt="">
+                    <p class="pt-[10px] text-center text-white">02. Graduate</p>
+                    <p class="pt-[10px] text-center text-white">Be bold,be courageous,<br>
                         be your best.</p>
                 </div>
                 
             </div>
 
-            <div class="overinside call">
-                <div class="overinsideleft">
-                    <img src="./assests/course3.png" alt="learn">
-                    <p>03. Work</p>
-                    <p>Great companies are built in<br>
+            <div class="w-[400px] h-[390px] focus:border-indigo-600 focus:outline-hidden box-border ">
+                <div>
+                    <img class="pt-[50px] pl-[150px] pb-[10px]" src="./assests/course3.png" alt="learn">
+                    <p class="pt-[10px] text-center text-white" >03. Work</p>
+                    <p class="pt-[10px] text-center text-white">Great companies are built in<br>
                         the office,with hard work put<br>
                         in by team.</p>
                 </div>
@@ -285,81 +280,81 @@
 
 
         <!--categories-->
-        <section class="topcategories">
-            <h1>Top <span>Categories</span> </h1>
-            <p>100+ unique online course list designs</p>
+        <section class="bg-gradient-to-b from-slate-50 to-cyan-50 pb-[50px]">
+            <h1 class="pt-[50px] text-[#323232] font-semibold font-[righteous] text-center text-[30px]">Top <span class="text-[#0E38CD]">Categories</span> </h1>
+            <p class="text-[#4E596B] font-normal text-[30px] text-center">100+ unique online course list designs</p>
 
 
-            <div class="categoriespart">
-                <div class="categoriesparinside">
-                    <img src="./assests/categories1.png" alt="digital marketting">
-                    <h4>Digtal<br>
+            <div class="mt-[80px] ml-[200px] flex justify-between w-[1500px] h-[300px]">
+                <div class="w-[210px] h-[300px] bg-white rounded-[14px] shadow-md">
+                    <img class="pl-15 pt-9" src="./assests/categories1.png" alt="digital marketting">
+                    <h4 class="pt-[35px] text-[#324361] text-center font-normal font-[righteous]">Digtal<br>
                         Marketing</h4>
-                        <h6>25 Courses</h6>
+                        <h6 class="pt-[35px] text-[#324361] text-center font-extralight text-[10px] font-[righteous]">25 Courses</h6>
                 </div>
 
-                <div class="categoriesparinside">
-                    <img src="./assests/categories2.png" alt="webdevelopment">
-                    <h4>Web<br>
+                <div class="w-[210px] h-[300px] bg-white rounded-[14px] shadow-md">
+                    <img class="pl-15 pt-9" src="./assests/categories2.png" alt="webdevelopment">
+                    <h4 class="pt-[35px] text-[#324361] text-center font-normal font-[righteous]">Web<br>
                         Development</h4>
-                        <h6>16 Courses</h6>
+                        <h6 class="pt-[35px] text-[#324361] text-center font-extralight text-[10px] font-[righteous]">16 Courses</h6>
                 </div>
 
-                <div class="categoriesparinside">
-                    <img src="./assests/categories3.png" alt="art&humanities">
-                    <h4>Art &<br>
+                <div class="w-[210px] h-[300px] bg-white rounded-[14px] shadow-md ">
+                    <img class="pl-15 pt-9" src="./assests/categories3.png" alt="art&humanities">
+                    <h4 class="pt-[35px] text-[#324361] text-center font-normal font-[righteous]">Art &<br>
                         Humanities</h4>
-                        <h6>76 Courses</6>
+                        <h6 class="pt-[35px] text-[#324361] text-center font-extralight text-[10px] font-[righteous]">76 Courses</6>
                 </div>
 
-                <div class="categoriesparinside">
-                    <img src="./assests/categories4.png" alt="personaldevelopment">
-                    <h4>Personal<br>
+                <div class="w-[210px] h-[300px] bg-white rounded-[14px] shadow-md">
+                    <img class="pl-15 pt-9" src="./assests/categories4.png" alt="personaldevelopment">
+                    <h4 class="pt-[35px] text-[#324361] text-center font-normal font-[righteous]">Personal<br>
                         Development</h4>
-                        <h6>22 Courses</h6>
+                        <h6 class="pt-[35px] text-[#324361] text-center font-extralight text-[10px] font-[righteous]">22 Courses</h6>
                 </div>
 
-                <div class="categoriesparinside">
-                    <img src="./assests/categories5.png" alt="itandsoftware">
-                    <h4>IT and<br>
+                <div class="w-[210px] h-[300px] bg-white rounded-[14px] shadow-md">
+                    <img class="pl-15 pt-9" src="./assests/categories5.png" alt="itandsoftware">
+                    <h4 class="pt-[35px] text-[#324361] text-center font-normal font-[righteous]">IT and<br>
                         Software</h4>
-                        <h6>110 Courses</h6>
+                        <h6 class="pt-[35px] text-[#324361] text-center font-extralight text-[10px] font-[righteous]">110 Courses</h6>
                 </div>
 
-                <div class="categoriesparinside">
-                    <img src="./assests/categories6.png" alt="graphicdesign">
-                    <h4>Graphic<br>
+                <div class="w-[210px] h-[300px] bg-white rounded-[14px] shadow-md ">
+                    <img class="pl-15 pt-9" src="./assests/categories6.png" alt="graphicdesign">
+                    <h4 class="pt-[35px] text-[#324361] text-center font-normal font-[righteous]">Graphic<br>
                         Design</h4>
-                        <h6>85 Courses</h6>
+                        <h6 class="pt-[35px] text-[#324361] text-center font-extralight text-[10px] font-[righteous]">85 Courses</h6>
                 </div>
                 
             </div>
         </section>
 
         <!--subscribe section-->
-        <section class="subscribeforupdate">
-            <div class="subscribe">
-                <div class="newcourses">
-                    <h1>Subscribe For Get Update<br>
+        <section class="mt-0 bg-[#f9f9f9] w-full h-[600px] relative">
+            <div class="bg-gradient-to-r from-blue-300 via-blue-800 to-violet-900 mt-[100px] ml-[350px] w-[1200px] h-[400px] rounded-[14px]  subscribe">
+                <div class="ml-[100px] mt-[40px] w-[1000px] h-[300px] rounded-[14px] shadow-[10px] text-center pt-[70px] pl-[30px] gap-[15px] newcourses">
+                    <h1 class="font-[righteous] text-[30px] text-white">Subscribe For Get Update<br>
                         Every New Courses</h1>
-                        <p>20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+                        <p class="font-[righteous] text-[15px] text-white">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
                         <div>
                             <form>
-                                <input type="email" placeholder="Enter your email">
-                                <button type="button">Subscribe</button>
+                                <input class="mt-[20px] w-[305px] h-[40px] bg-[#ffffff59] rounded-tl-[10px] rounded-tr-[2px] rounded-br-[2px] rounded-bl-[10px] shadow-[10px] gap-[100px] text-white" type="email" placeholder="Enter your email">
+                                <button class="mt-[20px]   w-[150px] h-[40px] rounded-r-[12px] rounded-l-[0px] shadow-[10px] bg-[#1b11e7] text-white ml-[-3%]" type="button">Subscribe</button>
                             </form>
                         </div>
 
                         <div>
-                            <img class="subscribeimg1" src="./assests/subscribe1.png" alt="degreeholder">
-                            <img  class="subscribeimg2" src="./assests/subscribe2.png" alt="reading">
-                            <img  class="subscribeimg3" src="./assests/subscribe3.png" alt="baby">
-                            <img  class="subscribeimg4" src="./assests/subscribe4.png" alt="boy">
-                            <img  class="subscribeimg5" src="./assests/subscribe5.png" alt="girl">
-                            <img  class="subscribeimg6" src="./assests/subscribe6.png" alt="boy baby">
-                            <img class="subscribeimg7" src="./assests/pol1.png" alt="polygonl">
-                            <img class="subscribeimg8" src="./assests/Polygon 2.png" alt="polygon2">
-                            <img class="subscribeimg9" src="./assests/polygon3.png" alt="polygon3">
+                            <img class="w-[50px] h-[50px] absolute top-[40px] left-[450px]" src="./assests/subscribe1.png" alt="degreeholder">
+                            <img  class=" w-[50px] h-[50px] absolute top-[160px] left-[550px]  " src="./assests/subscribe2.png" alt="reading">
+                            <img  class="w-[50px] h-[50px] absolute top-[290px] left-[450px] " src="./assests/subscribe3.png" alt="baby">
+                            <img  class="w-[50px] h-[50px] absolute top-[290px] right-112 " src="./assests/subscribe4.png" alt="boy">
+                            <img  class="w-[50px] h-[50px] absolute top-[162px] right-137 " src="./assests/subscribe5.png" alt="girl">
+                            <img  class="w-[50px] h-[50px] absolute top-[50px] right-112 " src="./assests/subscribe6.png" alt="boy baby">
+                            <img class="w-[50px] h-[50px] absolute top-[10px] left-[900px]" src="./assests/pol1.png" alt="polygonl">
+                            <img class=" w-[50px] h-[70px] absolute top-[370px] left-[320px] rotate-[5deg] " src="./assests/Polygon 2.png" alt="polygon2">
+                            <img class="w-[80px] h-[80px] absolute bottom-[5px] right-[300px] " src="./assests/polygon3.png" alt="polygon3">
                         </div>
                 </div>
             </div>
@@ -368,105 +363,113 @@
 
 
             <!--video section-->
-            <section class="videosection">
-                <div class="video">
-                    <img class="videoimg" src="./assests/video.png" alt="video">
+            <section class="w-full h-[900px] bg-[#f4f2f2] relative">
+                <div class="pl-[350px]">
+                    <img class="w-[1200px] h-[700px] pt-[100px] videoimg" src="./assests/video.png" alt="video">
                 </div>
-                <img class="playbutton" src="./assests/playbtn.png" alt="playbutton">
-                <img class="banner" src="./assests/banner.png" alt="banner">
+                <img class="absolute top-[297px] right-[830px] w-[150px] h-[150px] playbutton" src="./assests/playbtn.png" alt="playbutton">
+                <img class="w-[350px] h-[200px] absolute bottom-[195px] right-[219px] banner" src="./assests/banner.png" alt="banner">
             </section>
 
             <!--testimonial section-->
-            <section class="testimonialsection">
-                <h1>Testimonials</h1>
-                <p class="testimonialparagraph">What our student say about us</p>
-                <div class="testimonialthree">
-                    <div class="leftboximg1">
-                        <img class="girlroundimg1" src="./assests/testimonial.png" alt="leftbox" >
-                        <p class="para1">Such an amazing traniner and easily understand the entire<br> 
+            <section class="w-full h-[600px] bg-gradient-to-b from-[#ffffff] to-[#7471aa] relative ">
+                <h1 class="text-center text-[30px] text-[#0a0aec] font-[righteous]">Testimonials</h1>
+                <p class=" pt-[10px] text-center text-[18px] text-[#4E596B] font-[righteous] ">What our student say about us</p>
+                <div class="mt-[50px] ml-[300px] flex relative w-[1300px] h-[400px] ">
+                    <div class="mt-[100px] w-[450px] h-[150px] shadow-[40px] bg-[#f7f7f7] absolute left-[42px] top-[3px] rounded-none z-[1] ">
+                        <img class="w-[50px] h-[50px] absolute top-[-30px] left-[180px] girlroundimg1" src="./assests/testimonial.png" alt="leftbox" >
+                        <p class="pt-[30px] pl-[30px] text-[#7E7EAA] text-[10px] font-[righteous] ">Such an amazing traniner and easily understand the entire<br> 
                             syllabus, and the guidence will be super and good to the way<br> of explaning.</p>
-                            <img class="starimg1" src="./assests/starimg.png" alt="star image">
+                            <img class="pl-[30px] pt-[20px] starimg1" src="./assests/starimg.png" alt="star image">
                     </div>
 
-                    <div class="rightboximg">
-                        <img class="girlroundimg2" src="./assests/testimonial.png" alt="leftbox" >
-                        <p class="para2">Such an amazing traniner and easily understand the entire<br> 
+                    <div class="mt-[100px] w-[450px] h-[150px] bg-[#f7f7f7] shadow-[40px] absolute left-[830px] top-[3px] rounded-none z-[1]">
+                        <img class="w-[50px] h-[50px] absolute top-[-30px] left-[180px] " src="./assests/testimonial.png" alt="leftbox" >
+                        <p class="pt-[30px] pl-[90px] text-[#7E7EAA] text-[10px] font-[righteous]">Such an amazing traniner and easily understand the entire<br> 
                             syllabus, and the guidence will be super and good to the way<br> of explaning.</p>
-                            <img class="starimg2" src="./assests/starimg.png" alt="star image">
+                            <img class="pl-[90px] pt-[20px] starimg2" src="./assests/starimg.png" alt="star image">
                     </div>
-                    <div class="centerboximg">
-                        <img class="girlroundimg3" src="./assests/testimonial.png" alt="leftbox" >
-                        <p class="para3">Such an amazing traniner and easily understand the entire<br> 
+                    <div class="mt-[100px] w-[450px] h-[150px] shadow-[40px] bg-[#ffffff] absolute left-[450px] top-[-35px] rounded-none z-[1]">
+                        <img class="w-[50px] h-[50px] absolute top-[-30px] left-[180px] " src="./assests/testimonial.png" alt="leftbox" >
+                        <p class="pt-[30px] pl-[30px] text-[#7E7EAA] text-[10px] font-[righteous] ">Such an amazing traniner and easily understand the entire<br> 
                             syllabus, and the guidence will be super and good to the way<br> of explaning.</p>
-                            <img class="starimg3" src="./assests/starimg.png" alt="star image">
+                            <img class="pl-[30px] pt-[20px] starimg3" src="./assests/starimg.png" alt="star image">
                     </div>
 
                 </div>
-                <div class="arrow">
+                <div class="flex ml-[1800px] ">
                     <img src="./assests/leftarrow.png" alt="arrow">
                     <img src="./assests/rightarrow.png" alt="arrow">
                 </div>
-                <img class="halfcircleimg" src="./assests/halfcircle.png" alt="halfcircle">
+                <img class="absolute top-0 left-[100px] " src="./assests/halfcircle.png" alt="halfcircle">
             </section>
 <!--footer section-->
 <footer>
-<div class="parent">
-    <div class="div1">
-        <h2>Connect</h2>
+<div class="grid grid-cols-6 gap-24 w-full h-[400px] bg-gradient-to-r from-[#8a04f0] via-[#7e0cefbd] to-[#095be4] ">
+    <div class="col-span-2 w-[350px] h-[290px] ">
+        <h2 class="text-[#0A033C] font-righteous pt-10 pl-10 pb-10 text-[20px]">Connect</h2>
         <img src="./assests/logo.png" alt="">
-        <p>Sri Jagannath Nivas,8-1-164/345/A/1,<br>
+        <p class="font-righteous text-black pl-7 text-[10px]">Sri Jagannath Nivas,8-1-164/345/A/1,<br>
             Pragati Colony, Mailardevpally, Nawab<br>
             Saheb Kunta, Hyd, 500005</p>
     </div>
-    <div class="div3">
-        <h2 class="footertext">Classes</h2>
-        <a class="link" href="#">Classroom courses</a><br>
-        <a class="link" href="#">Virtual classroom courses</a><br>
-        <a class="link" href="#">E-learning courses</a><br>
-        <a class="link" href="#">Video Courses</a><br>
-        <a class="link" href="#">Offline Courses</a><br>
+    <div class="w-[200px] h-[290px] col-start-3 ">
+        <h2 class="text-[#0A033C] font-righteous pt-5 pl-5 pb-2.5 text-[20px] font-bold  footertext">Classes</h2>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Classroom courses</a><br>
+        <a class="pl-2.5 text-black text-[17px] font-righteous pb-7 link" href="#">Virtual classroomcourses</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">E-learning courses</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Video Courses</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Offline Courses</a><br>
     </div>
 
-    <div class="div4">
-        <h2 class="footertext">Community</h2><br>
-        <a class="link" href="#">Learners</a><br>
-        <a class="link" href="#">Parteners</a><br>
-        <a class="link" href="#">Developers</a><br>
-        <a class="link" href="#">Transactions</a><br> 
-        <a class="link" href="#">Blog</a>
+    <div class="col-start-4 ">
+        <h2 class="text-[#0A033C] font-righteous pt-5 pl-5 pb-2.5 text-[20px] font-bold  footertext">Community</h2><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Learners</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Parteners</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Developers</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Transactions</a><br> 
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Blog</a>
     </div>
 
-    <div class="div5">
-        <h2 class="footertext">Quick links</h2>
-        <a class="link" href="#">Home</a><br>
-        <a class="link" href="#">Professional Education</a><br>
-        <a class="link" href="#">Courses</a><br>
-        <a class="link" href="#">Admissions</a><br>
-        <a class="link" href="#">Testimonial</a><br>
-        <a class="link" href="#">Programs</a><br>
+    <div class="col-start-5 ">
+        <h2 class="text-[#0A033C] font-righteous pt-5 pl-5 pb-2.5 text-[20px] font-bold footertext">Quick links</h2>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Home</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Professional Education</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Courses</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Admissions</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Testimonial</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Programs</a><br>
     </div>
-    <div class="div6">
-        <h2 class="footertext">More</h2>
-        <a class="link" href="#">Press</a><br>
-        <a class="link" href="#">Investors</a><br>
-        <a class="link" href="#">Terms</a><br>
-        <a class="link" href="#">Privacy</a><br>
-        <a class="link" href="#">Help</a><br>
-        <a class="link" href="#">Contact</a><br>
+    <div class="col-start-6">
+        <h2 class="text-black font-righteous pt-5 pl-5 pb-2.5 text-[20px] font-bold  footertext">More</h2>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-17 link" href="#">Press</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Investors</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Terms</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Privacy</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Help</a><br>
+        <a class="pl-2.5 text-black text-[20px] font-righteous pb-7 link" href="#">Contact</a><br>
     </div>
 </div>
-<div class="socialmedia">
-    <div class="socialmediaimg">
-        <div class="socialmediaimg1">
-            <img src="./assests/Instagram .png" alt="instagram">
+<div class="bg-[rgba(8,20,240,0.56)] w-[1903px] ">
+    <div class="ml-[800px] flex items-center gap-5 pt-2.5 ">
+        <div class="w-[50px] h-[50px] rounded-full shadow-[24px] bg-white pl-2.5 pt-2.5">
+            <img class="w-[30px] h-[30px]" src="./assests/Instagram .png" alt="instagram">
             </div>
-            <div class="socialmediaimg1"><img src="./assests/WhatsApp .png" alt="whatsapp"></div>
-            <div class="socialmediaimg1"><img src="./assests/Twitter .png" alt="twitter"></div>
-            <div class="socialmediaimg1"><img src="./assests/LinkedIn .png" alt="linkedin"></div>
-            <div class="socialmediaimg1"><img src="./assests/YouTube .png" alt="youtube"></div>
+            <div class="w-[50px] h-[50px] rounded-full shadow-[24px] bg-white pl-2.5 pt-2.5 ">
+                <img class="w-[30px] h-[30px]" src="./assests/WhatsApp .png" alt="whatsapp">
+            </div>
+            <div class="w-[50px] h-[50px] rounded-full shadow-[24px] bg-white pl-2.5 pt-2.5">
+                <img class="w-[30px] h-[30px]" src="./assests/Twitter .png" alt="twitter">
+            </div>
+            <div class="w-[50px] h-[50px] rounded-full shadow-[24px] bg-white pl-2.5 pt-2.5">
+                <img class="w-[30px] h-[30px]" src="./assests/LinkedIn .png" alt="linkedin">
+            </div>
+            <div class="w-[50px] h-[50px] rounded-full shadow-[24px] bg-white pl-2.5 pt-2.5 ">
+                <img class="w-[30px] h-[30px]" src="./assests/YouTube .png" alt="youtube">
+            </div>
     </div>
-    <div class="footerpara">
-        <p>Copyright @ 2023 askmeidentity. All Rights Reserved</p>
+    <div class="bg-[#5c2acf] ">
+        <p class="text-center text-white font-righteous">Copyright @ 2023 askmeidentity. All Rights Reserved</p>
     </div>
     </div>
     
